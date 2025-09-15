@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "app-qrscanner",
-    "slug": "app-qrscanner",
-    "version": "1.0.0",
+    "name": "NATCON QR",
+    "slug": "lr-natcon-app",
+    "version": "2.1.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -11,20 +11,33 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fhitdept.appqrscanner"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fhitdept.appqrscanner"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "95f2ea6f-9300-4a08-8afd-e5bffd36e472"
+      }
+    },
+    "owner": "filipinohomes-dev",
+    "runtimeVersion": "2.1.2",
+    "updates": {
+      "url": "https://u.expo.dev/75e5d33e-87c4-4381-b146-374eadda466b",
+      "requestHeaders": {
+        "expo-channel-name": "main"
+      }
     }
   }
 }
